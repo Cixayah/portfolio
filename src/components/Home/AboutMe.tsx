@@ -15,7 +15,7 @@ export const AboutMe = () => {
                     <strong className='font-bold'>Cix</strong>
                 </h1>
                 <div className='mb-12'>
-                    <h2 className={`${roboto.className} mb-12`}>
+                    <h2 className={`${roboto.className} mb-12 text-dracula-green`}>
                         dev junior full stack!
                     </h2>
                     <Link href="/contact" className='p-3 bg-dracula-selection w-fit text-xl rounded-lg transition-all hover:bg-opacity-80'>Converse comigo!</Link>
@@ -29,7 +29,7 @@ export const AboutMe = () => {
             </div>
             <div className='relative'>
                 <Image src="https://avatars.githubusercontent.com/u/102544926?v=4" alt="Foto do perfil do Cix" width={500} height={500} unoptimized className='rounded-full' />
-                <p className='p-4 w-fit text-base leading-tight bg-dracula-green rounded-xl text-black absolute -bottom-[0.75rem] sm:bottom-3'>
+                <p className='p-4 w-fit text-base leading-tight bg-dracula-pink rounded-xl text-white absolute -bottom-[0.75rem] sm:bottom-3'>
                     <strong className='text-2xl'>2+</strong>
                     <br />
                     anos de experiência
