@@ -12,7 +12,7 @@ export const AboutMe = () => {
         <main className='flex flex-wrap-reverse justify-center items-center gap-10 md:gap-32 py-8 text-lg text-center xl:text-left xl:flex-nowrap xl:justify-between'>
             <div className='text-white flex-col items-center xl:items-start gap-4 w-full xl:w-120'>
                 <h1 className='text-3xl sm:text-7xl xl:leading-[5rem]'>Hello, eu sou&nbsp;
-                    <span className='font-bold'>Cix</span>
+                    <strong className='font-bold'>Cix</strong>
                 </h1>
                 <div className='mb-12'>
                     <h2 className={`${roboto.className} mb-12`}>
@@ -30,7 +30,7 @@ export const AboutMe = () => {
             <div className='relative'>
                 <Image src="https://avatars.githubusercontent.com/u/102544926?v=4" alt="Foto do perfil do Cix" width={500} height={500} unoptimized className='rounded-full' />
                 <p className='p-4 w-fit text-base leading-tight bg-dracula-green rounded-xl text-black absolute -bottom-[0.75rem] sm:bottom-3'>
-                    <span className='text-4xl'>2+</span>
+                    <strong className='text-2xl'>2+</strong>
                     <br />
                     anos de experiência
                 </p>
