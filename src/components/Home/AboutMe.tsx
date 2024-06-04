@@ -21,10 +21,10 @@ export const AboutMe = () => {
                     <Link href="/contatos" className='p-3 bg-dracula-selection w-fit text-xl rounded-lg transition-all hover:bg-opacity-80'>Converse comigo!</Link>
                 </div>
                 <ul className='flex flex-wrap justify-center xl:grid xl:grid-cols-2 xl:w-fit gap-3 text-xl'>
-                    <li style={{ backgroundColor: '#2F74C0', color: '#fff' }} className='w-fit pad-2 rounded-md'>typescript</li>
-                    <li style={{ backgroundColor: '#6BDDFA', color: '#000' }} className='w-fit pad-2 rounded-md'>react</li>
-                    <li style={{ backgroundColor: '#EFD81D', color: '#000' }} className='w-fit pad-2 rounded-md'>javascript</li>
-                    <li style={{ backgroundColor: '#000', color: '#fff' }} className='w-fit pad-2 rounded-md'>next.js</li>
+                    <li style={{ backgroundColor: '#2F74C0', color: '#fff' }} className='w-fit p-2 rounded-md'>typescript</li>
+                    <li style={{ backgroundColor: '#6BDDFA', color: '#000' }} className='w-fit p-2 rounded-md'>react</li>
+                    <li style={{ backgroundColor: '#EFD81D', color: '#000' }} className='w-fit p-2 rounded-md'>javascript</li>
+                    <li style={{ backgroundColor: '#000', color: '#fff' }} className='w-fit p-2 rounded-md'>next.js</li>
                 </ul>
             </div>
             <div>
