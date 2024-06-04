@@ -18,7 +18,7 @@ export const AboutMe = () => {
                     <h2 className={`${roboto.className} mb-12`}>
                         dev junior full stack!
                     </h2>
-                    <Link href="/contatos" className='p-3 bg-dracula-selection w-fit text-xl rounded-lg transition-all hover:bg-opacity-80'>Converse comigo!</Link>
+                    <Link href="/contacts" className='p-3 bg-dracula-selection w-fit text-xl rounded-lg transition-all hover:bg-opacity-80'>Converse comigo!</Link>
                 </div>
                 <ul className='flex flex-wrap justify-center xl:grid xl:grid-cols-2 xl:w-fit gap-3 text-xl'>
                     <li style={{ backgroundColor: '#2F74C0', color: '#fff' }} className='w-fit p-2 rounded-md'>typescript</li>
