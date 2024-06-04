@@ -9,14 +9,14 @@ const roboto = Roboto({
 
 export const AboutMe = () => {
     return (
-        <main className='flex flex-wrap-reverse justify-center items-center gap-10 md:gap-32 py-8 text-lg xl:text-left xl:flex-nowrap xl:justify-between'>
+        <main className='flex flex-wrap-reverse justify-center items-center gap-10 md:gap-32 py-8 text-lg text-center xl:text-left xl:flex-nowrap xl:justify-between'>
             <div className='text-white flex-col items-center xl:items-start gap-4 w-full xl:w-120'>
                 <h1 className='text-3xl sm:text-7xl xl:leading-[5rem]'>Hello, eu sou&nbsp;
                     <span className='font-bold'>Cix</span>
                 </h1>
                 <div className='mb-12'>
                     <h2 className={`${roboto.className} mb-12`}>
-                        Sou um dev junior full stack!
+                        dev junior full stack!
                     </h2>
                     <Link href="/contatos" className='p-3 bg-dracula-selection w-fit text-xl rounded-lg transition-all hover:bg-opacity-80'>Converse comigo!</Link>
                 </div>
@@ -35,6 +35,6 @@ export const AboutMe = () => {
                     ano de experiência
                 </p>
             </div>
-        </main>
+        </main >
     )
 }
