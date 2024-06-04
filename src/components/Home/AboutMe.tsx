@@ -27,12 +27,12 @@ export const AboutMe = () => {
                     <li style={{ backgroundColor: '#000', color: '#fff' }} className='w-fit p-2 rounded-md'>next.js</li>
                 </ul>
             </div>
-            <div>
-                <Image src="https://avatars.githubusercontent.com/u/102544926?v=4" alt="Foto do perfil do Cix" width={500} height={500} unoptimized />
-                <p>
-                    <span>1+</span>
+            <div className='relative'>
+                <Image src="https://avatars.githubusercontent.com/u/102544926?v=4" alt="Foto do perfil do Cix" width={500} height={500} unoptimized className='rounded-full' />
+                <p className='p-4 w-fit text-base leading-tight bg-dracula-green rounded-xl text-black absolute -bottom-[0.75rem] sm:bottom-3'>
+                    <span>com + de 1</span>
                     <br />
-                    ano de experiência
+                    ano exp na área
                 </p>
             </div>
         </main >
