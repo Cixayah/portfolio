@@ -30,9 +30,9 @@ export const AboutMe = () => {
             <div className='relative'>
                 <Image src="https://avatars.githubusercontent.com/u/102544926?v=4" alt="Foto do perfil do Cix" width={500} height={500} unoptimized className='rounded-full' />
                 <p className='p-4 w-fit text-base leading-tight bg-dracula-green rounded-xl text-black absolute -bottom-[0.75rem] sm:bottom-3'>
-                    <span>com + de 1</span>
+                    <span className='text-4xl'>2+</span>
                     <br />
-                    ano exp na área
+                    anos de experiência
                 </p>
             </div>
         </main >
