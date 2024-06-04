@@ -24,7 +24,7 @@ export const AboutMe = () => {
                 <p>
                     <span>1</span>
                     <br />
-                    anos de experiência
+                    ano de experiência
                 </p>
             </div>
         </main>
