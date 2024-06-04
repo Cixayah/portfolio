@@ -17,7 +17,7 @@ const config: Config = {
         'dracula-cyan': '#8be9fd',
         'dracula-green': '#29e659',
         'dracula-orange': '#ffb86c',
-        'dracula-pink': '#ff79c6',
+        'dracula-pink': '#f037a1',
         'dracula-purple': '#bd93f9',
         'dracula-red': '#ff5555',
         'dracula-yellow': '#f1fa8c',
