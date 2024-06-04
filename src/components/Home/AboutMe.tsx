@@ -10,13 +10,13 @@ const roboto = Roboto({
 export const AboutMe = () => {
     return (
         <main className='flex flex-wrap-reverse justify-center items-center gap-10 md:gap-32 py-8 text-lg text-center xl:text-left xl:flex-nowrap xl:justify-between'>
-            <div className='text-white flex-col items-center xl:items-start gap- w-full xl:w-120'>
-                <h1 className='text-3xl sm:text-6xl xl:leading-[rem]'>Hello! Eu sou&nbsp;
-                    <strong className='font-bold'>Cix</strong>
+            <div className="text-white flex flex-col items-center xl:items-start gap-4 w-full xl:w-120">
+                <h1 className='text-3xl sm:text-6xl xl:leading-[rem]'>Hello! Sou Gabriel aka&nbsp;
+                    <strong className='font-bold text-dracula-pink italic'>Cix</strong>
                 </h1>
                 <div className='mb-12'>
                     <h2 className={`${roboto.className} mb-12 text-dracula-green`}>
-                        dev junior full stack!
+                        dev junior full stack
                     </h2>
                     <Link href="/contact" className='p-3 bg-dracula-selection w-fit text-xl rounded-lg transition-all hover:bg-opacity-80'>Converse comigo!</Link>
                 </div>
