@@ -21,7 +21,7 @@ export const Menu = ({ isVisible, onClose }: MenuProps) => {
             >
                 <div className="flex justify-between mb-5">
                     <Link href="/">
-                        <Image src="/favicon.svg" width={55} height={55} alt="Ícone do Gengar" />
+                        <Image src="/favicon.svg" width={50} height={50} alt="Ícone do Gengar" />
                     </Link>
                     <button onClick={onClose}>
                         <MenuCloseIcon className="fill-white w-10 h-10" />
