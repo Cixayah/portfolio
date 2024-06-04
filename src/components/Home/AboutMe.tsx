@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 export const AboutMe = () => {
     return (
-        <main>
+        <main className='flex flex-wrap-reverse justify-center items-center gap-10 md:gap-32 py-8 text-lg xl:text-left xl:flex-nowrap xl:justify-between'>
             <div>
                 <h1>Eu sou o &nbsp;</h1>
                 <span>Cix</span>
