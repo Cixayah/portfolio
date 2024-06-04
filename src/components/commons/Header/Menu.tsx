@@ -16,7 +16,7 @@ export const Menu = ({ isVisible, onClose }: MenuProps) => {
             onClick={onClose}
         >
             <div
-                className="w-full bg-h-blue-900 h-96 shadow-md py-4 px-5"
+                className="w-full bg-dracula-background h-96 shadow-md py-4 px-5"
                 onClick={(e) => e.stopPropagation()}
             >
                 <div className="flex justify-between mb-5">

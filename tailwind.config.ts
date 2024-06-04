@@ -10,7 +10,6 @@ const config: Config = {
     extend: {
       colors: {
         'dracula-background': '#282a36',
-        'dracula-current-line': '#44475a',
         'dracula-selection': '#44475a',
         'dracula-foreground': '#f8f8f2',
         'dracula-comment': '#6272a4',
