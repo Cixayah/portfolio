@@ -7,7 +7,7 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend:{ 
+    extend: {
       colors: {
         'dracula-background': '#282a36',
         'dracula-current-line': '#44475a',
@@ -17,10 +17,17 @@ const config: Config = {
         'dracula-cyan': '#8be9fd',
         'dracula-green': '#29e659',
         'dracula-orange': '#ffb86c',
-        'dracula-pink': '#f037a1',
+        'dracula-pink': '#ff79c6',
         'dracula-purple': '#bd93f9',
         'dracula-red': '#ff5555',
         'dracula-yellow': '#f1fa8c',
+      },
+      width: {
+        120: '30rem',
+        125: '31.25rem',
+      },
+      height: {
+        125: '31.25rem',
       },
     },
   },
