@@ -34,7 +34,7 @@ export const Header = () => {
             <nav className="hidden md:flex items-center gap-10 text-md">
                 <Link href="/">Sobre mim</Link>
                 {/* <Link href="/portfolio">Portfolio</Link> */}
-                <Link href="/contact">Entre em contato</Link>
+                <Link href="/contacts">Entre em contato</Link>
             </nav>
             <Menu isVisible={isMenuOpen} onClose={closeMenu} />
         </header>

@@ -15,7 +15,7 @@ export interface AboutMe {
     bold: string;
   };
   description: string;
-  contact: {
+  contacts: {
     link: string;
     label: string;
   };

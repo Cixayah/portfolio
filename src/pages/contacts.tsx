@@ -1,6 +1,6 @@
 import { CopyButton } from "@/components/commons/CopyButton";
 import Head from "next/head";
-const Contacts = () => {
+const contacts = () => {
     return (
         <>
             <Head>
@@ -16,7 +16,7 @@ const Contacts = () => {
                             <a href="mailto:gabrielviniciodacosta@gmail.com" className="text-sm md:text-lg text-slate-300 underline truncate" target="_blank">
                                 gabrielviniciodacosta@gmail.com
                             </a>
-                            <CopyButton textToCopy={"gabrielviniciodacosta@gmail.com"} />
+                            <CopyButton textToCopy="gabrielviniciodacosta@gmail.com" />
                         </div>
                     </li>
                     <li className="md:text-xl">
@@ -40,4 +40,4 @@ const Contacts = () => {
         </>
     )
 }
-export default Contacts;
+export default contacts;
