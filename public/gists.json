@@ -1,0 +1,79 @@
+{
+    "aboutMe": {
+        "title": {
+            "default": "Hello!Sou o Gabriel aka",
+            "bold": "Cix"
+        },
+        "description": "dev junior full stack ",
+        "contact": {
+            "link": "/contacts",
+            "label": "Converse comigo!"
+        },
+        "techs": [
+            {
+                "tech": "typescript",
+                "color": "#FFFFFF",
+                "bgcolor": "#2F74C0"
+            },
+            {
+                "tech": "node.js",
+                "color": "#000000",
+                "bgcolor": "#3C873A"
+            },
+            {
+                "tech": "javascript",
+                "color": "#000000",
+                "bgcolor": "#EFD81D"
+            },
+            {
+                "tech": "next.js",
+                "color": "#FFFFFF",
+                "bgcolor": "#000000"
+            }
+        ],
+        "pfp": {
+            "image": {
+                "url": "https://avatars.githubusercontent.com/u/102544926",
+                "alt": "Foto de Perfil de Cix"
+            },
+            "experience": {
+                "default": "anos de experiência",
+                "bold": "2+"
+            }
+        }
+    },
+    "projects": [
+        {
+            "slug": "natura-whitelabel",
+            "name": "Natura Whitelabel",
+            "image": {
+                "url": "https://i.imgur.com/BSphXgc.png",
+                "alt": "Página Inicial do Site da Natura Brasil"
+            }
+        },
+        {
+            "slug": "blobg",
+            "name": "Blob.g",
+            "image": {
+                "url": "https://i.imgur.com/Fdl3Lnp.png",
+                "alt": "Blob.g, notícias do mundo dos códigos"
+            }
+        },
+        {
+            "slug": "userdash",
+            "name": "UserDash",
+            "image": {
+                "url": "https://i.imgur.com/bViAwow.png",
+                "alt": "UserDash, dashboard de usuários. Página inicial contendo uma opção para filtrar os usuários ou criar, além de um usuário de exemplo. O usuário de exemplo é Huriel Ferreira Lopes, e-mail: huriel.lopes@exampl.com, celular: 99 99999-9999, país: Brasil, estado: Rio Grande do Sul, enderaço: Rua dos Dados Falsos, 4"
+            }
+        },
+        {
+            "slug": "videoteca",
+            "name": "Videoteca",
+            "image": {
+                "url": "https://i.imgur.com/wuTKxK9.png",
+                "alt": "Videoteca, aplicativo para salvar vídeos"
+            }
+        }
+    ]
+}

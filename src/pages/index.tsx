@@ -1,18 +1,21 @@
 import { AboutMe } from "@/components/Home/AboutMe";
 import { Projects } from "@/components/Home/Projects";
+import { Project, AboutMe as TAboutMe } from "@/types/Home";
+import { GetStaticProps } from "next";
 import Head from "next/head";
 
-const Home = () => {
-  const projects = [
-    {
-      slug: 'project-1',
-      name: 'Project 1',
-      image: {
-        url: 'https://avatars.githubusercontent.com/u/7525670?v=4',
-        alt: 'Breve descrição sobre a imagem'
-      },
-    },
-  ];
+
+interface HomeProps {
+  home: {
+    aboutMe: TAboutMe;
+    projects: Project[];
+  };
+}
+
+const Home = ({ home }: HomeProps) => {
+  const { projects, aboutMe } = home
+
+  // console.log(home);
 
   return (
     <>
@@ -21,10 +24,27 @@ const Home = () => {
         <meta name="description" content="Sou um dev junior full stack" />
       </Head>
       <div className="py-12 px-6 md:pdx-32 space-y-10 md:space-y-28">
-        <AboutMe />
+        <AboutMe aboutMe={aboutMe} />
         <Projects projects={projects} />
       </div>
     </>
   );
 }
+
+const loadHome = async () => {
+  const res = await fetch(
+    'https://gist.githubusercontent.com/Cixayah/289099fbcb021450eaea59eebcb2ad1d/raw/6c6d61ba6b283a9cb268f832a4fcdc03494c74b4/home'
+  );
+  const home = await res.json();
+  return home
+}
+
+export const getStaticProps: GetStaticProps<HomeProps> = async () => {
+  const home = await loadHome();
+
+  return {
+    props: { home },
+  };
+};
+
 export default Home;

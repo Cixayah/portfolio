@@ -11,9 +11,9 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'cdn.discordapp.com',
+        hostname: 'i.imgur.com',
         port: '',
-        pathname: '/u/**',
+        pathname: '/**',
       },
     ],
   },
