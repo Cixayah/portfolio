@@ -28,7 +28,7 @@ export const AboutMe = () => {
                 </ul>
             </div>
             <div className='relative'>
-                <Image src="https://avatars.githubusercontent.com/u/102544926?v=4" alt="Foto do perfil do Cix" width={500} height={500} unoptimized className='rounded-full' />
+                <Image src="https://avatars.githubusercontent.com/u/102544926" alt="Foto do perfil do Cix" width={500} height={500} unoptimized className='rounded-full' />
                 <p className='p-4 w-fit text-base leading-tight bg-dracula-pink rounded-xl text-white absolute -bottom-[0.75rem] sm:bottom-3'>
                     <strong className='text-2xl'>2+</strong>
                     <br />
