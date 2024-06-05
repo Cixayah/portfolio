@@ -37,8 +37,6 @@ export const AboutMe = ({ aboutMe }: AboutMeProps) => {
                             {tech}
                         </li>
                     ))}
-
-
                 </ul>
             </div>
             <div className='relative'>
