@@ -33,7 +33,7 @@ const Home = ({ home }: HomeProps) => {
 
 const loadHome = async () => {
   const res = await fetch(
-    'https://gist.githubusercontent.com/Cixayah/289099fbcb021450eaea59eebcb2ad1d/raw/6c6d61ba6b283a9cb268f832a4fcdc03494c74b4/home'
+    'https://gist.githubusercontent.com/Cixayah/289099fbcb021450eaea59eebcb2ad1d/raw/a1074142388b7c93ec7554d68bf353a5049e1aa0/home'
   );
   const home = await res.json();
   return home
