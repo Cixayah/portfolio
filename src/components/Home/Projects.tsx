@@ -9,7 +9,7 @@ interface ProjectsProps {
 export const Projects = ({ projects }: ProjectsProps) => {
     return (
         <article className="space-y-16 flex flex-col items-center xl:items-start text-center xl:text-left">
-            <h2 className="text-2xl md:text-4xl">Projetos Recentes</h2>
+            <h2 className="text-2xl md:text-4xl">Projetos recentes:</h2>
 
             <ul className="flex flex-wrap gap-16 justify-center xl:justify-start">
                 {projects.map(({ slug, name, image }, index) => (
