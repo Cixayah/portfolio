@@ -31,7 +31,7 @@ export interface AboutMe {
 }
 
 export interface Project {
-  linkimg: string;
+  external: string;
   url: string;
   slug: string;
   name: string;

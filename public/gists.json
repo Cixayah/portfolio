@@ -44,38 +44,39 @@
     },
     "projects": [
         {
-            "name": "Projeto um",
-            "linkimg": "https://link-externo-um.com",
+            "slug": "todo-list",
+            "name": "TODO List",
+            "external": "https://necessary-silk-teal.glitch.me/",
             "image": {
-                "url": "https://i.imgur.com/DL9HxNB.jpeg",
-                "alt": "Foto de cachorrinho um"
+                "url": "https://img001.prntscr.com/file/img001/idrxJGZTSsO0XxB4jR3dkA.png",
+                "alt": "PrintScreen do TO-DO List"
             }
         },
         {
-            "slug": "projeto-dois",
-            "name": "Projeto dois",
-            "linkimg": "https://link-externo-dois.com",
+            "slug": "pokedex",
+            "name": "Pokédex",
+            "external": "https://link-externo-dois.com",
             "image": {
-                "url": "https://i.imgur.com/mx7Tidj.jpeg",
-                "alt": "Foto de cachorrinho dois"
+                "url": "https://img001.prntscr.com/file/img001/xurDZK4YQ1aqKm5UuIOFzA.png",
+                "alt": "Pokédex com o Gengar"
             }
         },
         {
             "slug": "gengar-player",
             "name": "Gengar Player",
-            "linkimg": "https://cixayah.github.io/GengarPlayer.mp3/",
+            "external": "https://cixayah.github.io/GengarPlayer.mp3/",
             "image": {
                 "url": "https://img001.prntscr.com/file/img001/uABaCZTmR9WZKQkm9oVvew.png",
                 "alt": "Foto do Gengar dançando"
             }
         },
         {
-            "slug": "projeto-quatro",
-            "name": "Projeto quatro",
-            "linkimg": "https://link-externo-quatro.com",
+            "slug": "hungar-bot-discord",
+            "name": "Hungar - Bot Discord",
+            "external": "https://github.com/Cixayah/Hungar",
             "image": {
-                "url": "https://i.imgur.com/dLSb9jl.jpeg",
-                "alt": "Foto de cachorrinho quatro"
+                "url": "https://img001.prntscr.com/file/img001/OAizD8oGSKmrOYfoH_EhzA.png",
+                "alt": "Foto do bot Hungar, possui a foto do Gengar em preto e sem fundo de ambiente"
             }
         }
     ]
