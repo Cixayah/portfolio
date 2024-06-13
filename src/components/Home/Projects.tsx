@@ -1,6 +1,5 @@
 import { Project } from '@/types/Home';
 import Image from 'next/image';
-import Link from 'next/link';
 
 interface ProjectsProps {
     projects: Project[];
@@ -12,15 +11,17 @@ export const Projects = ({ projects }: ProjectsProps) => {
             <h2 className="text-2xl md:text-4xl">Meus projetos recentes</h2>
 
             <ul className="flex flex-wrap gap-16 justify-center xl:justify-start">
-                {projects.map(({ url, slug, name, image }, index) => (
+                {projects.map(({ linkimg, slug, name, image }, index) => (
                     <li className="text-md relative" key={name + index}>
-                        <Image
-                            src={image.url}
-                            alt={image.alt}
-                            width={300}
-                            height={300}
-                            className="object-cover rounded-2xl h-[18.75rem] mb-4"
-                        />
+                        <a href={linkimg} target="_blank" rel="noopener noreferrer">
+                            <Image
+                                src={image.url}
+                                alt={image.alt}
+                                width={300}
+                                height={300}
+                                className="object-cover rounded-2xl h-[18.75rem] mb-4"
+                            />
+                        </a>
                         <span>{name}</span>
                         <div className="bg-dracula-green rounded-xl w-14 h-14 text-center flex justify-center items-center text-3xl absolute bottom-[1.25rem] -right-[1.25rem]">
                             <span>{index + 1}</span>

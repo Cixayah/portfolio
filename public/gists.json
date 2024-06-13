@@ -44,11 +44,11 @@
     },
     "projects": [
         {
-            "url": "/projects/projeto-um",
             "name": "Projeto um",
             "image": {
                 "url": "https://i.imgur.com/DL9HxNB.jpeg",
-                "alt": "Foto de cachorrinho um"
+                "alt": "Foto de cachorrinho um",
+                "linkimg": "/projects/projeto-um"
             }
         },
         {
