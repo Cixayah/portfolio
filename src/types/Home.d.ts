@@ -30,6 +30,7 @@ export interface AboutMe {
 }
 
 export interface Project {
+  url: string;
   slug: string;
   name: string;
   image: Image;

@@ -12,7 +12,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
             <h2 className="text-2xl md:text-4xl">Meus projetos recentes</h2>
 
             <ul className="flex flex-wrap gap-16 justify-center xl:justify-start">
-                {projects.map(({ slug, name, image }, index) => (
+                {projects.map(({ url, slug, name, image }, index) => (
                     <li className="text-md relative" key={name + index}>
                         <Image
                             src={image.url}

@@ -1,7 +1,7 @@
 {
     "aboutMe": {
         "title": {
-            "default": "Hello!Sou o Gabriel aka",
+            "default": "Hello!Sou Gabriel aka",
             "bold": "Cix"
         },
         "description": "dev junior full stack ",
@@ -33,46 +33,46 @@
         ],
         "pfp": {
             "image": {
-                "url": "https://avatars.githubusercontent.com/u/102544926",
+                "url": "https://cdn.leonardo.ai/users/63e19cc7-de2a-4f06-aed8-9e19f68f2e76/generations/86ff86f2-0e6c-4bc8-84e4-4c9dd2314a32/Default_a_boy_from_behind_wearing_a_black_hooded_shirt_program_0.jpg",
                 "alt": "Foto de Perfil de Cix"
             },
             "experience": {
-                "default": "anos de experiência",
-                "bold": "2+"
+                "default": "ano de experiência",
+                "bold": "1+"
             }
         }
     },
     "projects": [
         {
-            "slug": "natura-whitelabel",
-            "name": "Natura Whitelabel",
+            "url": "/projects/projeto-um",
+            "name": "Projeto um",
             "image": {
-                "url": "https://i.imgur.com/BSphXgc.png",
-                "alt": "Página Inicial do Site da Natura Brasil"
+                "url": "https://i.imgur.com/DL9HxNB.jpeg",
+                "alt": "Foto de cachorrinho um"
             }
         },
         {
-            "slug": "blobg",
-            "name": "Blob.g",
+            "slug": "projeto-dois",
+            "name": "Projeto dois",
             "image": {
-                "url": "https://i.imgur.com/Fdl3Lnp.png",
-                "alt": "Blob.g, notícias do mundo dos códigos"
+                "url": "https://i.imgur.com/mx7Tidj.jpeg",
+                "alt": "Foto de cachorrinho dois"
             }
         },
         {
-            "slug": "userdash",
-            "name": "UserDash",
+            "slug": "projeto-tres",
+            "name": "Projeto três",
             "image": {
-                "url": "https://i.imgur.com/bViAwow.png",
-                "alt": "UserDash, dashboard de usuários. Página inicial contendo uma opção para filtrar os usuários ou criar, além de um usuário de exemplo. O usuário de exemplo é Huriel Ferreira Lopes, e-mail: huriel.lopes@exampl.com, celular: 99 99999-9999, país: Brasil, estado: Rio Grande do Sul, enderaço: Rua dos Dados Falsos, 4"
+                "url": "https://i.imgur.com/KjfRjN4.jpeg",
+                "alt": "Foto de cachorrinho três"
             }
         },
         {
-            "slug": "videoteca",
-            "name": "Videoteca",
+            "slug": "projeto-quatro",
+            "name": "Projeto quatro",
             "image": {
-                "url": "https://i.imgur.com/wuTKxK9.png",
-                "alt": "Videoteca, aplicativo para salvar vídeos"
+                "url": "https://i.imgur.com/dLSb9jl.jpeg",
+                "alt": "Foto de cachorrinho quatro"
             }
         }
     ]
