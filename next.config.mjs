@@ -17,6 +17,12 @@ const nextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'img001.prntscr.com',
+        port: '',
+        pathname: '/file/**',
+      },
+      {
+        protocol: 'https',
         hostname: 'cdn.leonardo.ai',
         port: '',
         pathname: '/users/**',

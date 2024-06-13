@@ -4,7 +4,7 @@
             "default": "Hello!Sou Gabriel aka",
             "bold": "Cix"
         },
-        "description": "dev junior full stack ",
+        "description": "dev junior full stack",
         "contact": {
             "link": "/contacts",
             "label": "Converse comigo!"
@@ -45,31 +45,34 @@
     "projects": [
         {
             "name": "Projeto um",
+            "linkimg": "https://link-externo-um.com",
             "image": {
                 "url": "https://i.imgur.com/DL9HxNB.jpeg",
-                "alt": "Foto de cachorrinho um",
-                "linkimg": "/projects/projeto-um"
+                "alt": "Foto de cachorrinho um"
             }
         },
         {
             "slug": "projeto-dois",
             "name": "Projeto dois",
+            "linkimg": "https://link-externo-dois.com",
             "image": {
                 "url": "https://i.imgur.com/mx7Tidj.jpeg",
                 "alt": "Foto de cachorrinho dois"
             }
         },
         {
-            "slug": "projeto-tres",
-            "name": "Projeto três",
+            "slug": "gengar-player",
+            "name": "Gengar Player",
+            "linkimg": "https://cixayah.github.io/GengarPlayer.mp3/",
             "image": {
-                "url": "https://i.imgur.com/KjfRjN4.jpeg",
-                "alt": "Foto de cachorrinho três"
+                "url": "https://img001.prntscr.com/file/img001/uABaCZTmR9WZKQkm9oVvew.png",
+                "alt": "Foto do Gengar dançando"
             }
         },
         {
             "slug": "projeto-quatro",
             "name": "Projeto quatro",
+            "linkimg": "https://link-externo-quatro.com",
             "image": {
                 "url": "https://i.imgur.com/dLSb9jl.jpeg",
                 "alt": "Foto de cachorrinho quatro"
