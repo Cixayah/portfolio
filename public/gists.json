@@ -44,21 +44,30 @@
     },
     "projects": [
         {
+            "slug": "linktree",
+            "name": "LinkTree",
+            "external": "https://ttvcixayah.vercel.app",
+            "image": {
+                "url": "https://img001.prntscr.com/file/img001/4Jz3M18BQlW0liHJ8ALBPw.png",
+                "alt": "Uma árvore de links, o ícone principal é um gato mordendo um Gengar de pelúcia"
+            }
+        },
+        {
+            "slug": "pokedex",
+            "name": "Pokédex",
+            "external": "https://cixayah.github.io/pokedex/",
+            "image": {
+                "url": "https://img001.prntscr.com/file/img001/xurDZK4YQ1aqKm5UuIOFzA.png",
+                "alt": "Pokédex com o Gengar"
+            }
+        },
+        {
             "slug": "todo-list",
             "name": "TODO List",
             "external": "https://necessary-silk-teal.glitch.me/",
             "image": {
                 "url": "https://img001.prntscr.com/file/img001/idrxJGZTSsO0XxB4jR3dkA.png",
                 "alt": "PrintScreen do TO-DO List"
-            }
-        },
-        {
-            "slug": "pokedex",
-            "name": "Pokédex",
-            "external": "https://link-externo-dois.com",
-            "image": {
-                "url": "https://img001.prntscr.com/file/img001/xurDZK4YQ1aqKm5UuIOFzA.png",
-                "alt": "Pokédex com o Gengar"
             }
         },
         {
