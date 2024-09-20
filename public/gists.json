@@ -10,11 +10,7 @@
             "label": "Converse comigo!"
         },
         "techs": [
-            {
-                "tech": "typescript",
-                "color": "#FFFFFF",
-                "bgcolor": "#2F74C0"
-            },
+
             {
                 "tech": "node.js",
                 "color": "#000000",
@@ -29,6 +25,11 @@
                 "tech": "next.js",
                 "color": "#FFFFFF",
                 "bgcolor": "#000000"
+            },
+            {
+                "tech": "typescript",
+                "color": "#FFFFFF",
+                "bgcolor": "#2F74C0"
             }
         ],
         "pfp": {
