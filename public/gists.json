@@ -21,9 +21,9 @@
                 "bgcolor": "#3C873A"
             },
             {
-                "tech": "javascript",
+                "tech": "python",
                 "color": "#000000",
-                "bgcolor": "#EFD81D"
+                "bgcolor": "linear-gradient(90deg, #000000, #EFD81D)"
             },
             {
                 "tech": "next.js",
@@ -33,7 +33,7 @@
         ],
         "pfp": {
             "image": {
-                "url": "https://cdn.leonardo.ai/users/63e19cc7-de2a-4f06-aed8-9e19f68f2e76/generations/86ff86f2-0e6c-4bc8-84e4-4c9dd2314a32/Default_a_boy_from_behind_wearing_a_black_hooded_shirt_program_0.jpg",
+                "url": "https://avatars.githubusercontent.com/u/102544926?v=4",
                 "alt": "Foto de Perfil de Cix"
             },
             "experience": {
@@ -86,6 +86,15 @@
             "image": {
                 "url": "https://img001.prntscr.com/file/img001/OAizD8oGSKmrOYfoH_EhzA.png",
                 "alt": "Foto do bot Hungar, possui a foto do Gengar em preto e sem fundo de ambiente"
+            }
+        },
+        {
+            "slug": "meus-gastos-flask",
+            "name": "Meus Gastos - Flask",
+            "external": "https://meus-gastos-two.vercel.app/",
+            "image": {
+                "url": "https://img001.prntscr.com/file/img001/JHpbyAMqQGasly8pFpSWyg.png",
+                "alt": "Interface com tema colorido, com campos de descrição, valor e email"
             }
         }
     ]
