@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { Roboto } from 'next/font/google'
-import { AboutMe as TAboutMe } from '@/types/Home'
+import Image from 'next/image';
+import Link from 'next/link';
+import { Roboto } from 'next/font/google';
+import { AboutMe as TAboutMe } from '@/types/Home';
 
 const roboto = Roboto({
     subsets: ['latin'],
@@ -27,33 +27,33 @@ export const AboutMe = ({ aboutMe }: AboutMeProps) => {
                     </h2>
                     <Link href={contact.link} className='p-3 bg-dracula-selection w-fit text-xl rounded-lg transition-all hover:bg-opacity-80'>{contact.label}</Link>
                 </div>
-                <ul className='flex flex-wrap justify-center xl:grid xl:grid-cols-2 xl:w-fit gap-3 text-xl'>
+                <ul className='grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:w-fit text-xl'>
                     {techs.map(({ tech, bgcolor, color }, index) => (
                         <li
                             key={tech + index}
                             style={{ backgroundColor: bgcolor, color: color }}
-                            className='w-fit p-2 rounded-md'
+                            className='flex items-center justify-center p-2 rounded-md border-2 border-transparent transition-all transform hover:scale-105 hover:shadow-lg cursor-pointer'
                         >
-                            {tech}
+                            <span className='text-sm'>{tech}</span>
                         </li>
                     ))}
                 </ul>
             </div>
             <div className='relative'>
-                <Image src={pfp.image.url}
-                    alt="{pfp.image.alt}"
+                <Image
+                    src={pfp.image.url}
+                    alt={pfp.image.alt}
                     width={500}
                     height={500}
                     className='rounded-full'
                     unoptimized
                 />
-
                 <p className='p-4 w-fit text-base leading-tight bg-dracula-pink rounded-xl text-white absolute -bottom-[0.75rem] sm:bottom-3'>
                     <strong className='text-2xl'>{pfp.experience.bold}</strong>
                     <br />
                     {pfp.experience.default}
                 </p>
             </div>
-        </main >
-    )
+        </main>
+    );
 }

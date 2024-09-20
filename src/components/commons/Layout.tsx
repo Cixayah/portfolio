@@ -8,7 +8,7 @@ interface LayoutProps {
 
 const jetBrains_mono = JetBrains_Mono({
     subsets: ['latin'],
-    weight: '400',
+    weight: '500',
 });
 
 export const Layout = ({ children }: LayoutProps) => {

@@ -1,7 +1,7 @@
 {
     "aboutMe": {
         "title": {
-            "default": "Hello!Sou Gabriel aka",
+            "default": "Hello! Sou Gabriel",
             "bold": "Cix"
         },
         "description": "dev junior full stack",
@@ -10,16 +10,10 @@
             "label": "Converse comigo!"
         },
         "techs": [
-
             {
-                "tech": "node.js",
+                "tech": "typescript",
                 "color": "#000000",
-                "bgcolor": "#3C873A"
-            },
-            {
-                "tech": "python",
-                "color": "#000000",
-                "bgcolor": "#EFD81D"
+                "bgcolor": "#007ACC"
             },
             {
                 "tech": "next.js",
@@ -27,9 +21,54 @@
                 "bgcolor": "#000000"
             },
             {
-                "tech": "typescript",
+                "tech": "node.js",
+                "color": "#000000",
+                "bgcolor": "#8CC84B"
+            },
+            {
+                "tech": "python",
+                "color": "#FCC624",
+                "bgcolor": "#306998"
+            },
+            {
+                "tech": "wordpress",
                 "color": "#FFFFFF",
-                "bgcolor": "#2F74C0"
+                "bgcolor": "#21759B"
+            },
+            {
+                "tech": "linux",
+                "color": "#000000",
+                "bgcolor": "#FCC624"
+            },
+            {
+                "tech": "insomnia",
+                "color": "#FFFFFF",
+                "bgcolor": "#4C8BF5"
+            },
+            {
+                "tech": "bootstrap",
+                "color": "#FFFFFF",
+                "bgcolor": "#563D7C"
+            },
+            {
+                "tech": "tailwind",
+                "color": "#FFFFFF",
+                "bgcolor": "#38B2AC"
+            },
+            {
+                "tech": "git",
+                "color": "#FFFFFF",
+                "bgcolor": "#F05032"
+            },
+            {
+                "tech": "github",
+                "color": "#FFFFFF",
+                "bgcolor": "#181717"
+            },
+            {
+                "tech": "vscode",
+                "color": "#FFFFFF",
+                "bgcolor": "#007ACC"
             }
         ],
         "pfp": {
