@@ -23,7 +23,7 @@
             {
                 "tech": "python",
                 "color": "#000000",
-                "bgcolor": "linear-gradient(90deg, #000000, #EFD81D)"
+                "bgcolor": "#EFD81D"
             },
             {
                 "tech": "next.js",
