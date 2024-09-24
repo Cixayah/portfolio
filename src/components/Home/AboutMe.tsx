@@ -27,7 +27,8 @@ export const AboutMe = ({ aboutMe }: AboutMeProps) => {
                     </h2>
                     <Link href={contact.link} className='p-3 bg-dracula-selection w-fit text-xl rounded-lg transition-all hover:bg-opacity-80'>{contact.label}</Link>
                 </div>
-                <ul className='grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:w-fit text-xl'>
+                <ul className='grid grid-cols-3 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 xl:w-fit text-xl'>
+
                     {techs.map(({ tech, bgcolor, color }, index) => (
                         <li
                             key={tech + index}
