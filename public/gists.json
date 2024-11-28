@@ -1,13 +1,13 @@
 {
     "aboutMe": {
         "title": {
-            "default": "Hello! Sou Gabriel",
+            "default": "Hello! I'm Gabriel",
             "bold": "Cix"
         },
-        "description": "dev junior full stack",
+        "description": "junior full stack developer",
         "contact": {
             "link": "/contacts",
-            "label": "Converse comigo!"
+            "label": "Talk to me!"
         },
         "techs": [
             {
@@ -74,11 +74,11 @@
         "pfp": {
             "image": {
                 "url": "https://avatars.githubusercontent.com/u/102544926?v=4",
-                "alt": "Foto de Perfil de Cix"
+                "alt": "Cix's Profile Picture"
             },
             "experience": {
-                "default": "ano de experiência",
-                "bold": "1+"
+                "default": "years of experience",
+                "bold": "2+"
             }
         }
     },
@@ -89,7 +89,7 @@
             "external": "https://ttvcixayah.vercel.app",
             "image": {
                 "url": "https://img001.prntscr.com/file/img001/4Jz3M18BQlW0liHJ8ALBPw.png",
-                "alt": "Uma árvore de links, o ícone principal é um gato mordendo um Gengar de pelúcia"
+                "alt": "A link tree, the main icon is a cat biting a Gengar plush"
             }
         },
         {
@@ -98,7 +98,7 @@
             "external": "https://cixayah.github.io/pokedex/",
             "image": {
                 "url": "https://img001.prntscr.com/file/img001/xurDZK4YQ1aqKm5UuIOFzA.png",
-                "alt": "Pokédex com o Gengar"
+                "alt": "Pokédex with Gengar"
             }
         },
         {
@@ -106,35 +106,44 @@
             "name": "TODO List",
             "external": "https://necessary-silk-teal.glitch.me/",
             "image": {
-                "url": "https://img001.prntscr.com/file/img001/idrxJGZTSsO0XxB4jR3dkA.png",
-                "alt": "PrintScreen do TO-DO List"
+                "url": "https://lh3.googleusercontent.com/pw/AP1GczPGMe-3JPrMnw84I_tpqMf7myMPJTH4ejvFgrAYwh8xMxsosuPvlA56dZWTZrSfC-jroin8eagW4li56_60H6cTf0H1sg6X38GqBoHglDgfdlXRCH8sOieo3Ji_m7sj6TqgmwTxGWIEV5tyg0y8XmUX=w400-h434-s-no-gm?authuser=0",
+                "alt": "TODO List Screenshot"
             }
         },
         {
-            "slug": "gengar-player",
-            "name": "Gengar Player",
-            "external": "https://cixayah.github.io/GengarPlayer.mp3/",
+            "slug": "auth-jwt",
+            "name": "Auth JWT",
+            "external": "https://cixayah.github.io/html-jwt/",
             "image": {
-                "url": "https://img001.prntscr.com/file/img001/uABaCZTmR9WZKQkm9oVvew.png",
-                "alt": "Foto do Gengar dançando"
+                "url": "https://lh3.googleusercontent.com/pw/AP1GczPUPXlYGFsQu4HYrtA3v0lKY53NlzkGB7LIo76itm5XGncoryl6JFPtu7HhRZQBCZ0VnVpd8S6ZrrnaVqlhNo54pQJg_Jh-QvRFEYD4sGz78C0dWGZIwfZR7HT_VFC-MAjF2LXmCnzqPgyt9h2ZubjN=w418-h406-s-no-gm?authuser=0",
+                "alt": "A Login with a white background and a form with email and password fields"
             }
         },
         {
             "slug": "hungar-bot-discord",
-            "name": "Hungar - Bot Discord",
+            "name": "Hungar - Discord Bot",
             "external": "https://github.com/Cixayah/Hungar",
             "image": {
-                "url": "https://img001.prntscr.com/file/img001/OAizD8oGSKmrOYfoH_EhzA.png",
-                "alt": "Foto do bot Hungar, possui a foto do Gengar em preto e sem fundo de ambiente"
+                "url": "https://lh3.googleusercontent.com/pw/AP1GczN9ztE-DjykOS9quWvPCPgDlJHjxB8vtsmEzHGJWwN41OBUrQM-l64mVyKk_CguDZj-cPbk7e33MHS4uHNGjg1PyZHuZT8SHIdMoK35EVbBIfmQYvC3bfRMvVqh2H6tstUzTq-62vwXJ6DK-gvsbZgG=w362-h343-s-no-gm?authuser=0",
+                "alt": "Hungar bot photo, with Gengar in black and without background"
             }
         },
         {
-            "slug": "meus-gastos-flask",
-            "name": "Meus Gastos - Flask",
+            "slug": "my-expenses-flash",
+            "name": "My Expenses - Flask",
             "external": "https://meus-gastos-two.vercel.app/",
             "image": {
-                "url": "https://img001.prntscr.com/file/img001/JHpbyAMqQGasly8pFpSWyg.png",
-                "alt": "Interface com tema colorido, com campos de descrição, valor e email"
+                "url": "https://lh3.googleusercontent.com/pw/AP1GczN4IpdHij9AGb86fT4kAeOcSMpQ7rFf87a3jjAl5C6GT7ctabo8t5hjabry3Peq7KSkOSzlyqt-m4eG41-2BZW1fTyZx3Vim_LKXIVAspoWveJfImVvbzRNHE1l_xcvUickZMKg0LaTegjN-Hq0OpfJ=w626-h590-s-no-gm?authuser=0",
+                "alt": "Interface with colorful theme, with description, value, and email fields"
+            }
+        },
+        {
+            "slug": "csharp-project",
+            "name": "Crud in C# Windows Forms",
+            "external": "https://github.com/Cixayah/cs-sales-control",
+            "image": {
+                "url": "https://lh3.googleusercontent.com/pw/AP1GczPPG0D4pfGLCarqIMOLyCYM1AXW5FBJ-T9ALdJ0et9ty7E94IBYFV3LfqONR5DuSH57pcIMivDPHKW6abyfTEHOJQEb_nVJzpz74EAE6eIYM9JABrUFr-Tc6y2Eeu-WOxde8zfhoGFt9ls201G8Mq4B=w316-h320-s-no-gm?authuser=0",
+                "alt": "Interface application, with a form with name, email, and phone fields"
             }
         }
     ]

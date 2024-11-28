@@ -4,6 +4,7 @@ import { Project, AboutMe as TAboutMe } from "@/types/Home";
 import { GetStaticProps } from "next";
 import Head from "next/head";
 
+const githubGist = 'https://gist.githubusercontent.com/Cixayah/289099fbcb021450eaea59eebcb2ad1d/raw/a5c0f4df70e31237d7c0a82fecf40445eda5bcb4/home'
 
 interface HomeProps {
   home: {
@@ -33,7 +34,7 @@ const Home = ({ home }: HomeProps) => {
 
 const loadHome = async () => {
   const res = await fetch(
-    'https://gist.githubusercontent.com/Cixayah/289099fbcb021450eaea59eebcb2ad1d/raw/a5366489f984910fd1c5fb00cef3dcc6c500fac7/home'
+    githubGist
   );
   const home = await res.json();
   return home
