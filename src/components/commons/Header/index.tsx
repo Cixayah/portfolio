@@ -32,9 +32,9 @@ export const Header = () => {
                 <MenuIcon className="fill-white w-10 h-10" />
             </button>
             <nav className="hidden md:flex items-center gap-10 text-md">
-                <Link href="/">Sobre mim</Link>
+                <Link href="/">About me</Link>
                 {/* <Link href="/portfolio">Portfolio</Link> */}
-                <Link href="/contacts">Entre em contato</Link>
+                <Link href="/contacts">Contact</Link>
             </nav>
             <Menu isVisible={isMenuOpen} onClose={closeMenu} />
         </header>
