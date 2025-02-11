@@ -145,6 +145,15 @@
                 "url": "https://lh3.googleusercontent.com/pw/AP1GczPPG0D4pfGLCarqIMOLyCYM1AXW5FBJ-T9ALdJ0et9ty7E94IBYFV3LfqONR5DuSH57pcIMivDPHKW6abyfTEHOJQEb_nVJzpz74EAE6eIYM9JABrUFr-Tc6y2Eeu-WOxde8zfhoGFt9ls201G8Mq4B=w316-h320-s-no-gm?authuser=0",
                 "alt": "Interface application, with a form with name, email, and phone fields"
             }
+        },
+        {
+            "slug": "gym-cix",
+            "name": "Gym Cix",
+            "external": "https://gym-cix.vercel.app",
+            "image": {
+                "url": "hhttps://lh3.googleusercontent.com/pw/AP1GczPuYznPdgAggDAliUUcn00zaFNC_zEU5jqOz-UpV7RHtG0TPgdosOUTmFw7zJFztY-EEmtIO7dvaKBq_cyPenwN35pWq-GHyXDHvONvt1L8mOWe8QDK4aa4Z5GYfWu2z8cVb8kth5sPbj-LUxt1WU7S=w500-h500-s-no-gm?authuser=0",
+                "alt": "A website developed for a fictitious gym"
+            }
         }
     ]
 }
