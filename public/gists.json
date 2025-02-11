@@ -4,7 +4,7 @@
             "default": "Hello! I'm Gabriel",
             "bold": "Cix"
         },
-        "description": "junior full stack developer",
+        "description": "full stack developer",
         "contact": {
             "link": "/contacts",
             "label": "Talk to me!"

@@ -4,7 +4,7 @@ import { Project, AboutMe as TAboutMe } from "@/types/Home";
 import { GetStaticProps } from "next";
 import Head from "next/head";
 
-const githubGist = 'https://gist.githubusercontent.com/Cixayah/289099fbcb021450eaea59eebcb2ad1d/raw/78529ca0fa409598b6e4b84ba85453dd21ebd310/home'
+const githubGist = 'https://gist.githubusercontent.com/Cixayah/289099fbcb021450eaea59eebcb2ad1d/raw/f1af5b739d233bdc3912d55ad075b350fa775734/home'
 
 interface HomeProps {
   home: {
@@ -22,7 +22,7 @@ const Home = ({ home }: HomeProps) => {
     <>
       <Head>
         <title>Home | Cix</title>
-        <meta name="description" content="Sou um dev junior full stack" />
+        <meta name="description" content="Sou um dev full stack" />
       </Head>
       <div className="py-12 px-6 md:pdx-32 space-y-10 md:space-y-28">
         <AboutMe aboutMe={aboutMe} />
