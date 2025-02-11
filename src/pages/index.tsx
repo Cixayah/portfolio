@@ -4,7 +4,7 @@ import { Project, AboutMe as TAboutMe } from "@/types/Home";
 import { GetStaticProps } from "next";
 import Head from "next/head";
 
-const githubGist = 'https://gist.githubusercontent.com/Cixayah/289099fbcb021450eaea59eebcb2ad1d/raw/a5c0f4df70e31237d7c0a82fecf40445eda5bcb4/home'
+const githubGist = 'https://gist.githubusercontent.com/Cixayah/289099fbcb021450eaea59eebcb2ad1d/raw/3994b233c78ddeacd5bf12e4d6f2edc7a1f78273/home'
 
 interface HomeProps {
   home: {
