@@ -7,10 +7,10 @@ interface ProjectsProps {
 
 export const Projects = ({ projects }: ProjectsProps) => {
     return (
-        <article className="space-y-16 flex flex-col w-full px-4 md:px-8 xl:px-16">
-            <h2 className="text-2xl md:text-4xl text-center md:text-left">My recent projects</h2>
+        <article className="space-y-16 flex flex-col items-center xl:items-start text-center xl:text-left">
+            <h2 className="text-2xl md:text-4xl">My recent projects</h2>
 
-            <ul className="flex flex-wrap gap-8 md:gap-12 xl:gap-6 justify-evenly">
+            <ul className="flex flex-wrap gap-16 justify-center xl:justify-start">
                 {projects.map(({ external, slug, name, image }, index) => (
                     <li className="text-md relative" key={name + index}>
                         <a href={external} target="_blank" rel="noopener noreferrer">
