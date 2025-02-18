@@ -46,7 +46,7 @@ export const AboutMe = ({ aboutMe }: AboutMeProps) => {
                     alt={pfp.image.alt}
                     width={500}
                     height={500}
-                    className='rounded-full'
+                    className='rounded-full '
                     unoptimized
                 />
                 <p className='p-4 w-fit text-base leading-tight bg-dracula-pink rounded-xl text-white absolute -bottom-[0.75rem] sm:bottom-3'>
