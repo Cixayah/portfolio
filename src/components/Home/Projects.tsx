@@ -38,7 +38,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
     };
 
     return (
-        <section className="py-20 px-4 md:px-8 bg-dracula-background min-h-screen">
+        <section className="py-10 px-4 md:px-8 bg-dracula-background min-h-screen mt-0">
             <motion.div
                 initial="hidden"
                 whileInView="visible"
@@ -75,7 +75,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
                                 target={external ? "_blank" : "_self"}
                                 className="block relative rounded-xl overflow-hidden bg-dracula-current 
                                     shadow-lg transition-all duration-200 group-hover:shadow-xl 
-                                    group-hover:shadow-dracula-purple/20 border border-dracula-purple/10"
+                                    group-hover:shadow-dracula-pink/20 border border-dracula-pink/10"
                             >
                                 <div className="relative aspect-video overflow-hidden">
                                     <Image
@@ -93,12 +93,12 @@ export const Projects = ({ projects }: ProjectsProps) => {
 
                                 <div className="p-6 relative bg-dracula-current/95 backdrop-blur-sm">
                                     <h3 className="text-xl text-dracula-foreground font-medium mb-2 
-                                        group-hover:text-dracula-purple transition-colors duration-200">
+                                        group-hover:text-dracula-pink transition-colors duration-200">
                                         {name}
                                     </h3>
 
                                     <div className="absolute top-4 right-4 w-10 h-10 rounded-full 
-                                        bg-gradient-to-r from-dracula-pink to-dracula-purple
+                                        bg-gradient-to-r from-dracula-green to-dracula-green/50
                                         text-dracula-foreground flex items-center justify-center 
                                         text-sm font-medium opacity-90 group-hover:opacity-100 
                                         transition-all duration-200 transform group-hover:scale-100">
