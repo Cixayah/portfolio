@@ -51,7 +51,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
                     className="text-4xl sm:text-6xl text-dracula-foreground font-light mb-16 text-center"
                 >
                     My recent{' '}
-                    <span className="font-bold text-dracula-purple italic bg-gradient-to-r from-dracula-pink to-dracula-purple bg-clip-text text-transparent">
+                    <span className="font-bold text-dracula-pink bg-gradient-to-r from-dracula-pink to-dracula-green/90 bg-clip-text text-transparent">
                         projects
                     </span>
                 </motion.h2>
@@ -75,7 +75,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
                                 target={external ? "_blank" : "_self"}
                                 className="block relative rounded-xl overflow-hidden bg-dracula-current 
                                     shadow-lg transition-all duration-200 group-hover:shadow-xl 
-                                    group-hover:shadow-dracula-pink/20 border border-dracula-pink/10"
+                                    group-hover:shadow-dracula-green/20 border border-dracula-green/10"
                             >
                                 <div className="relative aspect-video overflow-hidden">
                                     <Image
@@ -93,7 +93,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
 
                                 <div className="p-6 relative bg-dracula-current/95 backdrop-blur-sm">
                                     <h3 className="text-xl text-dracula-foreground font-medium mb-2 
-                                        group-hover:text-dracula-pink transition-colors duration-200">
+                                        group-hover:text-dracula-green transition-colors duration-200">
                                         {name}
                                     </h3>
 
