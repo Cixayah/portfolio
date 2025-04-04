@@ -104,7 +104,7 @@
         {
             "slug": "todo-list",
             "name": "TODO List",
-            "external": "cix.up.railway.app",
+            "external": "https://cix.up.railway.app",
             "image": {
                 "url": "https://lh3.googleusercontent.com/pw/AP1GczPGMe-3JPrMnw84I_tpqMf7myMPJTH4ejvFgrAYwh8xMxsosuPvlA56dZWTZrSfC-jroin8eagW4li56_60H6cTf0H1sg6X38GqBoHglDgfdlXRCH8sOieo3Ji_m7sj6TqgmwTxGWIEV5tyg0y8XmUX=w400-h434-s-no-gm?authuser=0",
                 "alt": "TODO List Screenshot"
