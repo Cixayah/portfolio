@@ -13,10 +13,10 @@ const contacts = () => {
                     <li className="md:text-xl">
                         <span className="font-bold">E-mail</span>
                         <div className="flex gap-1 md:gap-3 items-center">
-                            <a href="mailto:cixayah@gmail.com" className="text-sm md:text-lg text-slate-300 underline truncate" target="_blank">
-                                cixayah@gmail.com
+                            <a href="mailto:contato@devcix.tech" className="text-sm md:text-lg text-slate-300 underline truncate" target="_blank">
+                                contato@devcix.tech
                             </a>
-                            <CopyButton textToCopy="cixayah@gmail.com" />
+                            <CopyButton textToCopy="contato@devcix.tech" />
                         </div>
                     </li>
                     <li className="md:text-xl">
@@ -38,8 +38,8 @@ const contacts = () => {
                     <li className="md:text-xl">
                         <span className="font-bold">Instagram</span>
                         <div className="flex gap-1 md:gap-3 items-center">
-                            <a href="https://instagram.com/cixayah" target="_blank" className="text-sm md:text-lg text-slate-300 underline truncate">
-                                https://instagram.com/cixayah
+                            <a href="https://instagram.com/devcix" target="_blank" className="text-sm md:text-lg text-slate-300 underline truncate">
+                                https://instagram.com/devcix
                             </a>
                         </div>
                     </li>
