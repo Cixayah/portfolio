@@ -1,5 +1,11 @@
 import mongoose from 'mongoose';
 
+// Conecta ao banco de dados (reutilize sua lógica de conexão)
+const connectDB = async () => {
+    if (mongoose.connections[0].readyState) return;
+    await mongoose.connect(process.env.MONGO_URI);
+};
+
 // Define o modelo do nosso link
 const urlSchema = new mongoose.Schema({
     fullUrl: { type: String, required: true },
@@ -8,25 +14,30 @@ const urlSchema = new mongoose.Schema({
 });
 const Url = mongoose.models.Url || mongoose.model('Url', urlSchema);
 
-// Conecta ao banco de dados
-const connectDB = async () => {
-    if (mongoose.connections[0].readyState) return;
-    await mongoose.connect(process.env.MONGO_URI);
-};
-
-export default async function handler(req, res) {
+export async function getServerSideProps({ params, res }) {
     await connectDB();
-    const { shortUrl } = req.query;
+    const { shortUrl } = params;
 
     try {
         const url = await Url.findOne({ shortUrl });
 
         if (url) {
-            res.redirect(307, url.fullUrl);
+            res.writeHead(307, { Location: url.fullUrl });
+            res.end();
+            return { props: {} };
         } else {
-            res.status(404).send('Link não encontrado ou expirado.');
+            return {
+                notFound: true,
+            };
         }
     } catch (error) {
-        res.status(500).send('Erro no servidor.');
+        return {
+            notFound: true,
+        };
     }
+}
+
+// Retorne um componente nulo, pois não precisamos renderizar nada
+export default function ShortUrlRedirect() {
+    return null;
 }
