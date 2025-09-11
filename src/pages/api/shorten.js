@@ -1,33 +1,47 @@
-document.getElementById('shortenBtn').addEventListener('click', async () => {
-    const fullUrl = document.getElementById('fullUrl').value;
-    const resultDiv = document.getElementById('result');
-    const shortenedLink = document.getElementById('shortenedLink');
+import mongoose from 'mongoose';
+import shortid from 'shortid';
 
-    // Define a URL base em uma variável
-    // Ajuste esta URL para a que você estiver usando (local ou Vercel)
-    const baseUrl = 'https://encurtador-blush.vercel.app';
-    const api_url = `${baseUrl}/api/shorten`;
-
-    try {
-        const response = await fetch(api_url, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ fullUrl }),
-        });
-
-        const data = await response.json();
-
-        if (response.ok) {
-            shortenedLink.href = `${baseUrl}/${data.shortUrl}`;
-            shortenedLink.textContent = `${baseUrl}/${data.shortUrl}`;
-            resultDiv.classList.remove('hidden');
-        } else {
-            alert(data.error || 'Ocorreu um erro.');
-        }
-    } catch (error) {
-        console.error('Erro:', error);
-        alert('Não foi possível se conectar ao servidor.');
-    }
+// Define o modelo do nosso link
+const urlSchema = new mongoose.Schema({
+    fullUrl: { type: String, required: true },
+    shortUrl: { type: String, required: true, default: () => shortid.generate().substring(0, 5) },
+    createdAt: { type: Date, default: Date.now, expires: 7200 } // 7200 segundos = 2 horas
 });
+const Url = mongoose.models.Url || mongoose.model('Url', urlSchema);
+
+// Conecta ao banco de dados (faça isso em um arquivo separado para não repetir)
+const connectDB = async () => {
+    if (mongoose.connections[0].readyState) return;
+    await mongoose.connect(process.env.MONGO_URI);
+};
+
+export default async function handler(req, res) {
+    // Configura os cabeçalhos de CORS para permitir requisições do seu servidor local
+    res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:5500');
+    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+    // Lida com a requisição preflight (OPTIONS)
+    if (req.method === 'OPTIONS') {
+        return res.status(200).end();
+    }
+
+    await connectDB();
+
+    if (req.method === 'POST') {
+        const { fullUrl } = req.body;
+        if (!fullUrl) {
+            return res.status(400).json({ error: 'URL completa é necessária.' });
+        }
+        try {
+            const newUrl = new Url({ fullUrl });
+            await newUrl.save();
+            res.status(200).json({ shortUrl: newUrl.shortUrl });
+        } catch (error) {
+            res.status(500).json({ error: 'Erro ao encurtar o link.' });
+        }
+    } else {
+        res.setHeader('Allow', ['POST', 'OPTIONS']);
+        res.status(405).end(`Method ${req.method} Not Allowed`);
+    }
+}
