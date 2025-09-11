@@ -17,7 +17,7 @@ const connectDB = async () => {
 
 export default async function handler(req, res) {
     // Configura os cabeçalhos de CORS para permitir requisições do seu servidor local
-    res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:5500');
+    res.setHeader('Access-Control-Allow-Origin', 'https://cixayah.github.io/encurtador/');
     res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
