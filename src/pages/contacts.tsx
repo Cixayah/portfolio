@@ -13,10 +13,10 @@ const contacts = () => {
                     <li className="md:text-xl">
                         <span className="font-bold">E-mail</span>
                         <div className="flex gap-1 md:gap-3 items-center">
-                            <a href="mailto:contato@devcix.tech" className="text-sm md:text-lg text-slate-300 underline truncate" target="_blank">
-                                contato@devcix.tech
+                            <a href="mailto:contato@devcix.com" className="text-sm md:text-lg text-slate-300 underline truncate" target="_blank">
+                                contato@devcix.com
                             </a>
-                            <CopyButton textToCopy="contato@devcix.tech" />
+                            <CopyButton textToCopy="contato@devcix.com" />
                         </div>
                     </li>
                     <li className="md:text-xl">
